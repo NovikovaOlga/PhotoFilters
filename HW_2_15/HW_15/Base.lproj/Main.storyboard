@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW_15" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9K-bA-HNT">
+                                <rect key="frame" x="0.0" y="626" width="414" height="216"/>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBz-7a-UUq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="491"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0An-Kz-ejk">
+                                <rect key="frame" x="154.5" y="585" width="105" height="32"/>
+                                <segments>
+                                    <segment title="foto"/>
+                                    <segment title="video"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedControlChoiceButton:" destination="BYZ-38-t0r" eventType="valueChanged" id="ggb-7g-Pan"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="h9K-bA-HNT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5hm-jL-jQH"/>
+                            <constraint firstItem="MBz-7a-UUq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7eV-li-4se"/>
+                            <constraint firstItem="0An-Kz-ejk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PFv-P2-dAS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h9K-bA-HNT" secondAttribute="bottom" constant="20" id="Sud-8r-NLr"/>
+                            <constraint firstItem="MBz-7a-UUq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aTl-GB-zqQ"/>
+                            <constraint firstItem="h9K-bA-HNT" firstAttribute="top" secondItem="0An-Kz-ejk" secondAttribute="bottom" constant="10" id="dEf-iP-dq8"/>
+                            <constraint firstItem="0An-Kz-ejk" firstAttribute="top" secondItem="MBz-7a-UUq" secondAttribute="bottom" constant="50" id="hyt-1M-tn0"/>
+                            <constraint firstItem="h9K-bA-HNT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u9U-cp-c1w"/>
+                            <constraint firstItem="MBz-7a-UUq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zGw-Bm-4Zy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="filterPicker" destination="h9K-bA-HNT" id="2ml-ER-SOg"/>
+                        <outlet property="fotoVideoView" destination="MBz-7a-UUq" id="c61-NO-vWz"/>
+                        <outlet property="segmentedControlGet" destination="0An-Kz-ejk" id="wq0-XV-HIw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

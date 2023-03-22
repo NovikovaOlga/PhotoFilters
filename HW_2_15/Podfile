@@ -1,0 +1,9 @@
+
+platform :ios, '12.0'
+use_frameworks!
+
+target 'HW_15' do
+  
+  pod 'GPUImage'
+
+end
