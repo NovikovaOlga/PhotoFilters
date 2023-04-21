@@ -2,8 +2,10 @@
 
 ## 🖼️ Filters for photos and videos.
 
-## 🚀 Capabilities
+## Description
+<p> An application for applying filters to photos and videos </p>
 
+## Capabilities
 - **Applying effects to photos and videos.**
 - **Applying multiple filters.**
 - **Using LUT.**
@@ -14,7 +16,7 @@
  <img style="width: 180px;" src="https://github.com/NovikovaOlga/PhotoFilters/blob/main/screens/screen3.png">
 <p>
 
-## 🛠️ Main technologies
+## Technologies
  - **GPUImage**
  - **LUT**
 
