@@ -18,9 +18,9 @@
     - LUT (GPUImageLookupFilter)
 
 <p>
- <img style="width: 180px;" src="https://github.com/NovikovaOlga/PhotoFilters/blob/main/screens/screen1.png">
- <img style="width: 180px;" src="https://github.com/NovikovaOlga/PhotoFilters/blob/main/screens/screen2.png">
- <img style="width: 180px;" src="https://github.com/NovikovaOlga/PhotoFilters/blob/main/screens/screen3.png">
+ <img style="width: 180px;" src="https://github.com/NovikovaOlga/novikovaolga/blob/main/Other/PhotoFilters/screen1.png">
+ <img style="width: 180px;" src="https://github.com/NovikovaOlga/novikovaolga/blob/main/Other/PhotoFilters/screen2.png">
+ <img style="width: 180px;" src="https://github.com/NovikovaOlga/novikovaolga/blob/main/Other/PhotoFilters/screen3.png">
 <p>
 
 ## Technologies
