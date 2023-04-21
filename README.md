@@ -1,6 +1,6 @@
 # PhotoFilters
 
-## 🖼️ Filters for photos and videos.
+## 🎨 Filters for photos and videos.
 
 ## Description
 <p> An application for applying filters to photos and videos </p>
